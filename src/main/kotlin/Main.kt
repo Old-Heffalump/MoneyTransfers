@@ -5,6 +5,6 @@ fun main(args: Array<String>) {
 
     val commissionsResult =  if (amount * commission / 100 > minCommission) amount * commission / 100 else (minCommission)
 
-    println("Commission is : $commissionsResult")
+    println("Commission is : $commissionsResult rub")
 
 }
